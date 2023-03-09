@@ -1,6 +1,6 @@
 module RISCV_R(input logic clk, reset);
 	
-	logic [31:0] inst,rdata1,rdata2,result,wdata2,pc,out,y,read_data,write_data;
+	logic [31:0] inst,rdata1,rdata2,result,wdata2,pc,out,y,read_data;
 	logic write,sel_B,rd_en,wr_en,wb_sel,cs;
 	logic [4:0] aluop;
 	logic [3:0]mask;
